@@ -1,0 +1,9 @@
+{% if rules %}
+Rules:
+
+{% for rule in rules %}
+{{ rule }}
+{% endfor %}
+{% else %}
+No rules.
+{% endif %}

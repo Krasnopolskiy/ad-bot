@@ -1,0 +1,9 @@
+{% if vulnboxes %}
+Vuln boxes:
+
+{% for vulnbox in vulnboxes %}
+<code>{{ vulnbox }}</code>
+{% endfor %}
+{% else %}
+No vuln boxes.
+{% endif %}
